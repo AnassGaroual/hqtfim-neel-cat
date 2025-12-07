@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pytest
+pytest-cov
+black
+flake8

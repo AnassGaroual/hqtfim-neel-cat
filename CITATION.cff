@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "HQTFIM vs Standard TFIM: Néel Cat Structure and Entanglement"
+message: >-
+  If you use this software or the associated data in research, please cite it as below.
+  NOTE: This is a finite-size numerical study of a hierarchical quantum Ising model.
+  All conclusions about the thermodynamic limit are conjectural and based on numerics.
+type: software
+authors:
+  - family-names: Garoual
+    given-names: Anass
+repository-code: "https://github.com/AnassGaroual/hqtfim-neel-cat"
+abstract: >-
+  This code implements finite-size exact diagonalization of the hierarchical
+  quantum transverse-field Ising model (HQTFIM) and the standard 1D transverse-field
+  Ising model. It computes ground-state fidelity with a Néel-cat state,
+  half-chain entanglement entropy, staggered order parameter, and effective
+  exponents as a function of system size and hierarchy exponent α.
+  The results are used to compare the hierarchical model to the standard chain
+  and to distinguish a special ordered-point field h*(α) from the true critical field.
+keywords:
+  - hierarchical Ising model
+  - transverse-field Ising model
+  - entanglement entropy
+  - cat states
+  - quantum phase transitions
+license: MIT
+version: "1.0.0"
+date-released: "2025-12-07"
