@@ -8,9 +8,9 @@ version = "0.1.0"
 description = "Hierarchical quantum Ising model vs standard TFIM: Neel cat structure and entanglement comparison."
 readme = "README.md"
 requires-python = ">=3.9"
-license = { text = "MIT" }
+license = "MIT"
 authors = [
-  { name = "Anass Gaoual"}
+  { name = "Anass Gaoual" }
 ]
 dependencies = [
   "numpy",
@@ -20,3 +20,6 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/AnassGaroual/hqtfim-neel-cat"
+
+[tool.setuptools]
+packages = ["code"]
